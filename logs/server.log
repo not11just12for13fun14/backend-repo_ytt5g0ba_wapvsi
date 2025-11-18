@@ -1,21 +1,29 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [152] using StatReload
-INFO:     Started server process [154]
+INFO:     Started reloader process [290] using StatReload
+INFO:     Started server process [292]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:55076 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:55078 - "GET /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55086 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55078 - "GET /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55086 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45298 - "GET /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45314 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45298 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45314 - "GET /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45330 - "OPTIONS /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45330 - "POST /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:52710 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45330 - "GET /employees HTTP/1.1" 200 OK
-INFO:     172.20.0.1:52710 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45330 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49306 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:49322 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49324 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49324 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49322 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47954 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47970 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47954 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47970 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53816 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53824 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53816 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53824 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52340 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52338 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52338 - "GET /employees HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52340 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52340 - "GET /attendance/summary/691c8660f3b0f15c695e0dc3 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47438 - "OPTIONS /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47448 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47448 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47448 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47448 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
