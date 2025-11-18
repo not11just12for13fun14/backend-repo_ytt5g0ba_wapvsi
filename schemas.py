@@ -12,7 +12,7 @@ Model name is converted to lowercase for the collection name:
 """
 
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, Literal
 
 # Example schemas (replace with your own):
 
@@ -38,8 +38,30 @@ class Product(BaseModel):
     category: str = Field(..., description="Product category")
     in_stock: bool = Field(True, description="Whether product is in stock")
 
-# Add your own schemas here:
-# --------------------------------------------------
+# Attendance app schemas
+
+class Employee(BaseModel):
+    """
+    Employees collection schema
+    Collection: "employee"
+    """
+    name: str = Field(..., description="Employee full name")
+    email: str = Field(..., description="Employee email")
+    role: Optional[str] = Field(None, description="Job title/role")
+    phone: Optional[str] = Field(None, description="Contact number")
+    is_active: bool = Field(True, description="Whether the employee is active")
+
+class Attendance(BaseModel):
+    """
+    Attendance collection schema
+    Collection: "attendance"
+    """
+    employee_id: str = Field(..., description="Reference to employee _id as string")
+    status: Literal["present", "absent"] = Field(..., description="Attendance status based on location")
+    date: str = Field(..., description="ISO date (YYYY-MM-DD) for the attendance record")
+    lat: Optional[float] = Field(None, description="Latitude captured when marking attendance")
+    lng: Optional[float] = Field(None, description="Longitude captured when marking attendance")
+    distance_m: Optional[float] = Field(None, description="Distance to office in meters")
 
 # Note: The Flames database viewer will automatically:
 # 1. Read these schemas from GET /schema endpoint
