@@ -27,3 +27,13 @@ INFO:     172.20.0.1:47448 - "POST /attendance/mark HTTP/1.1" 200 OK
 INFO:     172.20.0.1:47448 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
 INFO:     172.20.0.1:47448 - "POST /attendance/mark HTTP/1.1" 200 OK
 INFO:     172.20.0.1:47448 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47448 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47448 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33130 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33142 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33142 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33142 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33140 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33140 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33140 - "POST /attendance/mark HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33140 - "GET /attendance/daily?date_str=2025-11-18 HTTP/1.1" 200 OK
